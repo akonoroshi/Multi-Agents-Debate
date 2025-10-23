@@ -2,7 +2,7 @@
     "model_name": "gpt-3.5-turbo",
     "temperature": 0,
     "num_players": 3,
-    "source": "请大家不要在发传单时分散自己的注意力。",
+    "source": "\u8bf7\u5927\u5bb6\u4e0d\u8981\u5728\u53d1\u4f20\u5355\u65f6\u5206\u6563\u81ea\u5df1\u7684\u6ce8\u610f\u529b\u3002",
     "correct reference": "Please don't distract yourself when you send out flyers.",
     "incorrect reference": "Please don't distribute yourself when you send out flyers.",
     "base translation": "Please do not distract yourself while distributing flyers.",
@@ -12,11 +12,11 @@
         "Affirmative side": [
             {
                 "role": "system",
-                "content": "You are a debater. Hello and welcome to the translation competition, which will be conducted in a debate format. It's not necessary to fully agree with each other's perspectives, as our objective is to find the correct translation.\nThe debate topic is stated as follows:\nWhat is the correct English translation of the following Chinese text: \"请大家不要在发传单时分散自己的注意力。\""
+                "content": "You are a debater. Hello and welcome to the translation competition, which will be conducted in a debate format. It's not necessary to fully agree with each other's perspectives, as our objective is to find the correct translation.\nThe debate topic is stated as follows:\nWhat is the correct English translation of the following Chinese text: \"\u8bf7\u5927\u5bb6\u4e0d\u8981\u5728\u53d1\u4f20\u5355\u65f6\u5206\u6563\u81ea\u5df1\u7684\u6ce8\u610f\u529b\u3002\""
             },
             {
                 "role": "user",
-                "content": "Translate the following text from Chinese to English: 请大家不要在发传单时分散自己的注意力。"
+                "content": "Translate the following text from Chinese to English: \u8bf7\u5927\u5bb6\u4e0d\u8981\u5728\u53d1\u4f20\u5355\u65f6\u5206\u6563\u81ea\u5df1\u7684\u6ce8\u610f\u529b\u3002"
             },
             {
                 "role": "assistant",
@@ -58,7 +58,7 @@
         "Negative side": [
             {
                 "role": "system",
-                "content": "You are a debater. Hello and welcome to the translation competition, which will be conducted in a debate format. It's not necessary to fully agree with each other's perspectives, as our objective is to find the correct translation.\nThe debate topic is stated as follows:\nWhat is the correct English translation of the following Chinese text: \"请大家不要在发传单时分散自己的注意力。\""
+                "content": "You are a debater. Hello and welcome to the translation competition, which will be conducted in a debate format. It's not necessary to fully agree with each other's perspectives, as our objective is to find the correct translation.\nThe debate topic is stated as follows:\nWhat is the correct English translation of the following Chinese text: \"\u8bf7\u5927\u5bb6\u4e0d\u8981\u5728\u53d1\u4f20\u5355\u65f6\u5206\u6563\u81ea\u5df1\u7684\u6ce8\u610f\u529b\u3002\""
             },
             {
                 "role": "user",
@@ -96,7 +96,7 @@
         "Moderator": [
             {
                 "role": "system",
-                "content": "You are a moderator. There will be two debaters involved in a translation debate competition. They will present their translations and discuss their perspectives on the correct English translation of the given Chinese text: \"请大家不要在发传单时分散自己的注意力。\". At the end of each round, you will evaluate the candidates' translation submissions based on the following criteria:\n1. Accuracy: The degree to which the translation captures the original meaning of the source text.\n2. Fluency: The readability and naturalness of the translation in English."
+                "content": "You are a moderator. There will be two debaters involved in a translation debate competition. They will present their translations and discuss their perspectives on the correct English translation of the given Chinese text: \"\u8bf7\u5927\u5bb6\u4e0d\u8981\u5728\u53d1\u4f20\u5355\u65f6\u5206\u6563\u81ea\u5df1\u7684\u6ce8\u610f\u529b\u3002\". At the end of each round, you will evaluate the candidates' translation submissions based on the following criteria:\n1. Accuracy: The degree to which the translation captures the original meaning of the source text.\n2. Fluency: The readability and naturalness of the translation in English."
             },
             {
                 "role": "user",
@@ -134,7 +134,7 @@
         "Judge": [
             {
                 "role": "system",
-                "content": "You are a moderator. There will be two debaters involved in a translation debate competition. They will present their translations and discuss their perspectives on the correct English translation of the given Chinese text: \"请大家不要在发传单时分散自己的注意力。\". At the end of each round, you will evaluate the candidates' translation submissions based on the following criteria:\n1. Accuracy: The degree to which the translation captures the original meaning of the source text.\n2. Fluency: The readability and naturalness of the translation in English."
+                "content": "You are a moderator. There will be two debaters involved in a translation debate competition. They will present their translations and discuss their perspectives on the correct English translation of the given Chinese text: \"\u8bf7\u5927\u5bb6\u4e0d\u8981\u5728\u53d1\u4f20\u5355\u65f6\u5206\u6563\u81ea\u5df1\u7684\u6ce8\u610f\u529b\u3002\". At the end of each round, you will evaluate the candidates' translation submissions based on the following criteria:\n1. Accuracy: The degree to which the translation captures the original meaning of the source text.\n2. Fluency: The readability and naturalness of the translation in English."
             },
             {
                 "role": "user",
@@ -146,12 +146,13 @@
             },
             {
                 "role": "user",
-                "content": "Therefore, what is the correct English translation of the following Chinese text: \"请大家不要在发传单时分散自己的注意力。\". Please summarize your reasons and give the final translation that you think is correct. Now please output your answer in json format, with the format as follows: {\"Reason\": \"\", \"Correct Translation\": \"\"}"
+                "content": "Therefore, what is the correct English translation of the following Chinese text: \"\u8bf7\u5927\u5bb6\u4e0d\u8981\u5728\u53d1\u4f20\u5355\u65f6\u5206\u6563\u81ea\u5df1\u7684\u6ce8\u610f\u529b\u3002\". Please summarize your reasons and give the final translation that you think is correct. Now please output your answer in json format, with the format as follows: {\"Reason\": \"\", \"Correct Translation\": \"\"}"
             },
             {
                 "role": "assistant",
                 "content": "{\"Reason\": \"Both translation candidates accurately convey the meaning of the original Chinese text. However, Translation Candidate 1 uses the phrase 'lose focus' which is not an exact match to the Chinese text. Translation Candidate 2 uses the phrase 'let yourself become distracted' which is a closer match to the Chinese text. Additionally, Translation Candidate 2 places the emphasis on the act of distributing flyers, which is the context of the original text. Therefore, the correct English translation of the Chinese text is: 'Please do not let yourself become distracted while distributing flyers.'\", \"Correct Translation\": \"Please do not let yourself become distracted while distributing flyers.\"}"
             }
         ]
-    }
+    },
+    "comet score": 0.9911723136901855
 }
